@@ -1,0 +1,157 @@
+[
+    {
+        "caption": "Reg:wiki data trim",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_wiki_pref",
+                "my_remove_wiki_pref2",
+                "my_trim_wiki_time_step1",
+                "my_trim_wiki_time_step2",
+                "my_remove_blank"
+            ]
+         }
+     },
+
+     {
+        "caption": "Reg:delete_blank",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_blank"
+            ]
+         }
+     },
+
+     {
+        "caption": "Reg:delete_empty",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_empty"
+            ]
+         }
+     },
+
+     {
+        "caption": "Reg:delete_all_blank",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_empty",
+                "my_remove_all_blank"
+            ]
+         }
+     },
+
+    // 微信-公大资讯-新闻早读
+     {
+        "caption": "Reg:news_trim",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "news_add_per",
+                "news_delete_title_1_v2",
+                "news_delete_subparam_2",
+                "my_remove_blank",
+            ]
+         }
+     },
+
+     // 微信-财经早餐
+     {
+        "caption": "Reg:news_trim_2",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "news_delete_title_2",
+                "news_delete_subparam_2",
+                "my_remove_blank",
+            ]
+         }
+     },
+
+     // 微信-央视网-新闻联播
+     {
+        "caption": "Reg:news_trim_3",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "news_trim_3_1",
+                "news_trim_3_2",
+                "news_trim_3_3",
+                "news_trim_3_4",
+                "news_trim_3_5",
+                "my_remove_blank",
+                "news_trim_3_6",
+                "news_trim_3_7",
+                "news_trim_3_8",
+                "news_trim_3_9",
+            ]
+         }
+     },
+
+     // 微信-科研圈-论文导读
+     {
+        "caption": "Reg:news_trim_4",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_empty",
+                "my_remove_all_blank",
+                "news_trim_4_2",
+                "news_trim_4_3",
+                "news_trim_4_4",
+                "my_remove_all_blank",
+            ]
+         }
+     },
+
+     // 微信-军报记者-起床号
+     {
+        "caption": "Reg:news_trim_5",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_all_blank",
+                "news_trim_5_1",
+                "news_trim_5_2",
+                "news_trim_5_3",
+                "news_trim_5_4",
+                "my_remove_all_blank",
+            ]
+         }
+     },
+
+     // 微信-36氪
+     {
+        "caption": "Reg:news_trim_6",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "my_remove_all_blank",
+                "my_remove_blank_and_empty",
+                "my_remove_start_empty",
+                "my_remove_end_empty",
+                "news_trim_6_1",
+                "news_trim_6_2",
+                "news_trim_6_3",
+                "my_remove_all_blank",
+            ]
+         }
+     },
+
+
+
+     {
+        "caption": "Reg:trim_kindle",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [
+                "delete_kindle_empty",
+                "delete_kindle_tail",
+                "delete_kindle_tail2",
+            ]
+         }
+     },
+]
